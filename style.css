@@ -1,0 +1,109 @@
+/*  */
+body,html{ 
+  max-width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.intro-container{
+  background-image: url("./intro img.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  /* margin-bottom: 50px; */
+}
+
+.title{
+  color:white;
+  font-size: 110px;
+  backdrop-filter: blur(2px);
+
+}
+
+.image{
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+}
+
+.nav{
+  margin-top: 10px;
+  height: 0%;
+  
+}
+
+
+/*  */
+
+
+:hover.gradient{
+  background: #3883CF;
+  background-clip: none;
+background: linear-gradient(to left, #3883CF 44%, #21F700 70%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.mainframe{
+  max-width: 100%;
+  max-height: 100%;
+  background-color: #21f70060;
+  margin-top: 37px;
+  padding-top: 30px;
+}
+.navbar{
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 60%;
+  height: min-content;
+  margin-bottom: 500px;
+}
+
+.card{
+  padding: 2% 5% 2%;
+  border: none;
+ 
+}
+.card-group{
+  text-align: center;
+  padding: 20% 0% 0%; 
+}
+
+.buynow{
+  text-align: center;
+  padding-bottom: 10%;
+}
+.aboutus{
+    padding-bottom: 30px;
+}
+
+footer{
+  padding: 0% 0% 0%;
+  width: 98%;
+  margin: 0 auto;
+  height: 25em;
+  
+}
+.facebook,.insta,.linked{
+  color: aliceblue;
+  font-size: 30px;
+}
+
+:hover.facebook{
+  color: rgb(39, 39, 253);
+}
+:hover.insta{
+  color: rgb(254, 41, 41);
+}
+:hover.linked{
+  color: rgb(114, 114, 255);
+}
+
+.image{
+  filter: blur(1px);
+}
+
+:hover.image{
+ filter: saturate(1) brightness(1);
+}
+
