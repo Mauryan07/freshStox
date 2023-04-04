@@ -5,6 +5,10 @@ body,html{
   padding: 0%;
 }
 
+body{
+  overflow: hidden;
+    }
+
 .intro-container{
   background-image: url("./intro img.jpg");
   background-size: cover;
